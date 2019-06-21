@@ -78,8 +78,9 @@ h3 {
 }
 
 nav {
-  float: right;
+ float: right;
   margin-top: 25px;
+  margin-right: 20px;
 }
 
 nav a {
@@ -215,3 +216,79 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 960px;) {
+  
+  .auth-image{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    font-size: 1.50rem;
+    line-height: 1.5; 
+  }
+  .auth-image{
+    width: 70%;
+  }
+  p {
+    line-height: 35px;
+    font-size: 18px;
+  }
+  #main-container {
+    height: 150px;
+  }
+ #logo {
+   
+ }
+ nav a{
+   font-size: 18px;
+ }
+ nav {
+   float: right;
+   margin-top: 25px;
+   margin-right: 152px;
+ }
+ #masthead {
+   width: 100%;
+   margin: 0px;
+ }
+
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 10px;
+  }
+  #logo {
+    width: 100%;
+    margin-right: 20px;
+  }
+  nav {
+    margin-right: 152px;
+  }
+  footer {
+    width: 100%;
+  }
+  p {
+    line-height: 35px;
+    font-size: 20px;
+  }
+  #container,
+  #masthead {
+    font-size: 20px;
+    line-height: 8px;
+    overflow: visible;
+    
+  }
+  .auth-image{
+    width: 100%;
+  }
+  .main-section {
+    margin-top: 100px;
+}
+.work {
+  margin-left: 100px;
+}
+
